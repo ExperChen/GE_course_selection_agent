@@ -99,7 +99,7 @@ XMU_PASSWORD=你的密码
 ### 查询所有课程余量
 
 ```bash
-python3 scraper.py query
+python scraper.py query
 ```
 
 输出示例：

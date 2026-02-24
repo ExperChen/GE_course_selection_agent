@@ -9,7 +9,8 @@ BASE_URL = "https://ac.xmu.edu.my"
 LOGIN_PAGE_URL = f"{BASE_URL}/index.php"
 LOGIN_URL = f"{BASE_URL}/index.php?c=Login&a=login"
 NORMAL_URL = f"{BASE_URL}/student/index.php?c=Xk&a=Normal"
-ENTRY_ID = "1403"  # 选课轮次入口 ID，每轮不同，需手动更新
+INFO_URL = f"{BASE_URL}/student/index.php?c=Default&a=info"
+ENTRY_ID = "1404"  # 选课轮次入口 ID，每轮不同，需手动更新
 
 # ── HTTP ──────────────────────────────────────
 
@@ -25,6 +26,7 @@ RED = "\033[91m"
 GREEN = "\033[92m"
 YELLOW = "\033[93m"
 CYAN = "\033[96m"
+BLUE = "\033[94m"
 BOLD = "\033[1m"
 RESET = "\033[0m"
 
